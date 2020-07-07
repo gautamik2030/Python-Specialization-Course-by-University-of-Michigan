@@ -1,0 +1,18 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+#l = list()
+b=list()
+#baa=list()
+for line in fh:
+        line.rstrip()
+        #line.upper()
+        l=line.split()
+        for ax in l:
+                
+                if ax in b:
+                        continue
+                else:
+                        b.append(ax)
+b.sort()                     
+print(b)                        
+
