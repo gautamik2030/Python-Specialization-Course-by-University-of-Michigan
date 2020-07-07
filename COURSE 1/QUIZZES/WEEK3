@@ -1,0 +1,33 @@
+Q.1 When Python is running in the interactive mode and displaying the chevron prompt (>>>) - what question is Python asking you?
+A.1 What Python statement would you like me to run?
+
+Q.2 What will the following program print out:
+    >>> x = 15
+    >>> x = x + 5
+    >>> print(x)
+    
+A.2 20
+
+Q.3 Python scripts (files) have names that end with:
+A.3 .py
+
+Q.4 Which of these words is a reserved word in Python ?
+A.4 for
+
+Q.5 What is the proper way to say “good-bye” to Python?
+A.5 quit()
+
+Q.6 Which of the parts of a computer actually executes the program instructions?
+A.6 Central Processing Unit
+
+Q.7 What is "code" in the context of this course?
+A.7 A sequence of instructions in programming language
+
+Q.8 A USB memory stick is an example of which of the following components of computer architecture?
+A.8 Secondary Memory
+
+Q.9 What is the best way to think about a "Syntax Error" while programming?
+A.9 The computer did not understand the statement that you entered
+
+Q.10 Which of the following is not one of the programming patterns covered in Chapter 1?
+A.10 Random Steps
