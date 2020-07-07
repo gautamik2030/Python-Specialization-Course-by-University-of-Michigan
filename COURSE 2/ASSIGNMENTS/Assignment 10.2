@@ -1,0 +1,20 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+count = 0
+d=dict()
+for line in fh:
+        line.rstrip()
+        if line.startswith('From') and not line.startswith('From:'):
+                count+=1
+                stuff=line.split()
+                key=stuff[5]
+                time=key.split(':')
+                hour=time[0]
+                d[hour]=d.get(hour,0)+1
+for h,c in sorted(d.items()):
+        print(h,c)
+
+
+
+
+#print(d)
