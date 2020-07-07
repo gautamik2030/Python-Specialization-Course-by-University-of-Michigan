@@ -1,0 +1,27 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+count = 0
+d=dict()
+for line in fh:
+        line.rstrip()
+        if line.startswith('From') and not line.startswith('From:'):
+                count+=1
+                stuff=line.split()
+                key=stuff[1]
+                d[key]=d.get(key,0)+1
+lword=None
+lkey=0
+
+for word,key in d.items():
+        if lkey<key:
+                lkey=key
+                lword=word
+        else:
+                continue
+
+print(lword,lkey)
+
+
+
+
+#print(d)
