@@ -1,0 +1,8 @@
+text = "X-DSPAM-Confidence:    0.8475";
+
+s=text.find(':')
+
+p=text[s+1:]
+
+q=float(p.lstrip())
+print(q)
