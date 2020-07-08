@@ -1,0 +1,27 @@
+For this exercise follow the instructions:-
+
+1. Open the given document.
+
+2. When the document is opened, right click and click on "Inspect".
+
+3. A panel on right handside will open.
+
+4. Look for "Network" option and click on it, it is on the first line of the panel, where you might see options like "Elements", "Console", "Sourses". 
+
+5. There you might see Blocked Requests (in tabular form - 20ms, 40ms, ...), press Ctrl+R, if you see (200ms , 400ms... no need to reload i.e. no need to press Ctrl+R)
+
+6. Now click on your document name.
+
+7. Scroll down and you will find everything that is asked in the assignment.
+
+For my assignment:-
+
+Last-Modified: Sat, 13 May 2017 11:22:22 GMT
+
+ETag: "1d3-54f6609240717"
+
+Content-Length: 467
+
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+
+Content-Type: text/plain
