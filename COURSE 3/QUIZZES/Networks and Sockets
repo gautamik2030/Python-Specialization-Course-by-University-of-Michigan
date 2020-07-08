@@ -1,0 +1,33 @@
+Q.1 What do we call it when a browser uses the HTTP protocol to load a file or page from a server and display it in the browser?
+A.1 The Request/Response Cycle
+
+Q.2 What separates the HTTP headers from the body of the HTTP document?
+A.2 A blank line
+
+Q.3 What must you do in Python before opening a socket?
+A.3 import socket
+
+Q.4 In a client-server application on the web using sockets, which must come up first?
+A.4 server
+
+Q.5 Which of the following is most like an open socket in an application?
+A.5 An "in-progress" phone conversation
+
+Q.6 What does the "H" of HTTP stand for?
+A.6 HyperText
+
+Q.7 What is an important aspect of an Application Layer protocol like HTTP?
+A.7 Which application talks first? The client or server?
+
+Q.8 What are the three parts of this URL (Uniform Resource Locator)?
+    http://www.dr-chuck.com/page1.htm
+    
+A.8 Protocol, host, and document
+
+Q.9 When you click on an anchor tag in a web page like below, what HTTP request is sent to the server?
+    <p>Please click <a href="page1.htm">here</a>.</p>
+
+A.9 GET
+
+Q.10 Which organization publishes Internet Protocol Standards? 
+A.10 IETF
