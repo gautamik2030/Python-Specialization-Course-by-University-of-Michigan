@@ -1,0 +1,75 @@
+Q.1 What is "serialization" when we are talking about web services?
+A.1 The act of taking data stored in a program and formatting it so it can be sent across the network
+
+Q.2 What is the method to cause Python to parse XML that is stored in a string?
+A.2 fromstring( )
+
+Q.3 In this XML, which are the "complex elements"?
+    <people>
+      <person>
+        <name>Chuck</name>
+        <phone>303 4456</phone>
+      </person>
+      <person>
+        <name>Noah</name>
+        <phone>622 7421</phone>
+      </person>
+    </people>
+
+A.3 people, person
+
+Q.4 In the following XML, which are attributes?
+    <person>
+      <name>Chuck</name>
+      <phone type="intl">+1 734 303 4456</phone>
+      <email hide="yes" />
+    </person>
+
+A.4 type, hide
+
+Q.5 In the following XML, which node is the parent node of node e
+    <a>
+      <b>X</b>
+      <c>
+        <d>Y</d>
+        <e>Z</e>
+      </c>
+    </a>
+
+A.5 c
+
+Q.6 Looking at the following XML, what text value would we find at path "/a/c/e"
+    <a>
+      <b>X</b>
+      <c>
+        <d>Y</d>
+        <e>Z</e>
+      </c>
+    </a>
+
+A.6 Z
+
+Q.7 What is the purpose of XML Schema?
+A.7 To establish a contract as to what is valid XML
+
+Q.8 If you were building an XML Schema and wanted to limit the values allowed in an xs:string field to only those in a particular list, 
+    what XML tag would you use in your XML Schema definition?
+A.8 xs:enumeration
+
+Q.9 What does the "Z" mean in this representation of a time:
+A.9 This time is in the UTC timezone
+
+Q.10 Which of the following dates is in ISO8601 format?
+A.10 2002-05-30T09:30:10Z
+    
+Q.11 What is the name of the Python 2.x library to parse XML data?
+A.11 xml.etree.ElementTree
+
+Q.12 What is a good time zone to use when computers are exchanging data over APIs?
+A.12 Universal Time / GMT
+
+Q.13 Which of the following are not commonly used serialization formats?
+A.13 HTTP, dictionaries, TCP
+
+Q.14 Which of the following is true about an API?
+A.14 An API is a contract that defines how to use a software library
