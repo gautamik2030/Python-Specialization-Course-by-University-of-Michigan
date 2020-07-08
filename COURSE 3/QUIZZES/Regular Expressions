@@ -1,0 +1,37 @@
+Q.1 Which of the following regular expressions would extract 'uct.ac.za' from this string using re.findall?
+    rom stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
+    
+A.1 @(\S+)
+
+Q.2 Which of the following is the way we match the "start of a line" in a regular expression?
+A.2 ^
+
+Q.3 What would the following mean in a regular expression? [a-z0-9]
+A.3 Match a lowercase letter or a digit
+
+Q.4 What is the type of the return value of the re.findall() method?
+A.4 A list of strings
+
+Q.5 What is the "wild card" character in a regular expression (i.e., the character that matches any character)?
+A.5 .
+
+Q.6 What is the difference between the "+" and "*" character in regular expressions?
+A.6 The "+" matches at least one character and the "*" matches zero or more characters
+
+Q.7 What does the "[0-9]+" match in a regular expression?
+A.7 One or more digits
+
+Q.8 What does the following Python sequence print out?
+    x = 'From: Using the : character'
+    y = re.findall('^F.+:', x)
+    print(y)
+
+A.8 ['From: Using the:']
+
+Q.9 What character do you add to the "+" or "*" to indicate that the match is to be done in a non-greedy manner?
+A.9 ?
+
+Q.10 Given the following line of text:
+    From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
+    
+A.10 stephen.marquard@uct.ac.za
