@@ -1,0 +1,14 @@
+SUM=301296
+
+import re
+fname = input("Enter file name: ")
+fh = open(fname)
+count = 0
+s=0
+for line in fh:
+        x=line.rstrip()
+        y=re.findall('[0-9]+',x)
+        for j in y:
+            a=int(j);
+            s+=a
+print(s)
