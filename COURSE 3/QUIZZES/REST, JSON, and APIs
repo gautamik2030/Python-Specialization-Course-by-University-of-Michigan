@@ -35,4 +35,8 @@ A.9 OAuth
 Q.10 What header does Twitter use to tell you how many more API requests you can make before you will be rate limited?
 A.10 x-rate-limit-remaining
 
+Q.11 Which of the following is true about an API?
+A.11 An API is a contract that defines how to use a software library
+
+
 
