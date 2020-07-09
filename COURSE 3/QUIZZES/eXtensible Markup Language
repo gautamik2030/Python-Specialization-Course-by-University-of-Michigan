@@ -70,6 +70,3 @@ A.12 Universal Time / GMT
 
 Q.13 Which of the following are not commonly used serialization formats?
 A.13 HTTP, dictionaries, TCP
-
-Q.14 Which of the following is true about an API?
-A.14 An API is a contract that defines how to use a software library
