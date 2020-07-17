@@ -1,0 +1,17 @@
+Q.1 What is the most common Unicode encoding when moving data between systems?
+A.1 UTF-8
+
+Q.2 What is the decimal (Base-10) numeric value for the upper case letter "G" in the ASCII character set?
+A.2 71
+
+Q.3 What word does the following sequence of numbers represent in ASCII:
+    108, 105, 115, 116
+
+A.3 list
+
+Q.4 How are strings stored internally in Python 3?
+A.4 Unicode
+
+Q.5 When reading data across the network (i.e. from a URL) in Python 3, what method must be used to convert it to the internal format used by strings?
+A.5 decode()
+
