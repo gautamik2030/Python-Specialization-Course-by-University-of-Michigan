@@ -1,0 +1,31 @@
+After you have downloaded the SQLite, Create a new database, a crate a table window will pop up, close it and follow the steps :-
+
+1. Go to the Execute SQL and enter : (if you have different variables, use yours not mine but the syntax would be similar)
+
+   CREATE TABLE Ages ( 
+  name VARCHAR(128), 
+  age INTEGER
+  )
+  
+  Press the play/execute button.
+  
+  2. Clear the abobe code and type : (if you have different variables, use yours not mine but the syntax would be similar)
+  
+     DELETE FROM Ages;
+     INSERT INTO Ages (name, age) VALUES ('Saiba', 27);
+     INSERT INTO Ages (name, age) VALUES ('Emilyann', 19);
+     INSERT INTO Ages (name, age) VALUES ('Mariam', 29);
+     INSERT INTO Ages (name, age) VALUES ('Diya', 16);
+     
+     Press the play/execute button.
+     
+ 3. Clear the abobe code and type : (if you have different variables, use yours not mine but the syntax would be similar)
+ 
+    SELECT hex(name || age) AS X FROM Ages ORDER BY X
+    
+    Press the play/execute button.
+    
+4. Below a record would be created copy the first row and paste it in the assignment-code section and press submit.
+
+NOTE: My code was - 446979613136
+
