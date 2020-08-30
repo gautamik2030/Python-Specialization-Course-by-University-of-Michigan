@@ -1,0 +1,38 @@
+Q.1 How do we model a many-to-many relationship between two database tables?
+A.1 We add a table with two foreign keys
+
+Q.2 In Python, what is a database "cursor" most like?
+A.2 A file handle
+
+Q.3 What method do you call in an SQLIte cursor object in Python to run an SQL command?
+A.3 execute()
+
+Q.4 In the following SQL,
+    cur.execute('SELECT count FROM Counts WHERE org = ? ', (org, ))
+    what is the purpose of the "?"?
+    
+A.4 It is a placeholder for the contents of the "org" variable
+
+Q.5 In the following Python code sequence (assuming cur is a SQLite cursor object),
+    cur.execute('SELECT count FROM Counts WHERE org = ? ', (org, ))
+    row = cur.fetchone()
+    what is the value in row if no rows match the WHERE clause?
+    
+A.5 None
+
+Q.6 What does the LIMIT clause in the following SQL accomplish?
+    SELECT org, count FROM Counts
+    ORDER BY count DESC LIMIT 10
+    
+A.6 It only retrieves the first 10 rows from the table
+
+Q.7 What does the executescript() method in the Python SQLite cursor object do that the normal execute() method does not do?
+A.7 It allows multiple SQL statements separated by semicolons
+
+Q.8 What is the purpose of "OR IGNORE" in the following SQL:
+    INSERT OR IGNORE INTO Course (title) VALUES ( ? )
+    
+A.8 It makes sure that if a particular title is already in the table, there are no duplicate rows inserted
+
+Q.9 What do we generally avoid in a many-to-many junction table?
+A.9 
