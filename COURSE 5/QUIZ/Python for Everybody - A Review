@@ -1,0 +1,168 @@
+Q.1 What is the most common Unicode encoding when moving data between systems?
+A.1 UTF-8
+
+Q.2 What is the decimal (Base-10) numeric value for the upper case letter "G" in the ASCII character set?
+A.2 71
+
+Q.3 What word does the following sequence of numbers represent in ASCII:
+    108, 105, 115, 116
+    
+A.3 list
+
+Q.4 How are strings stored internally in Python 3?
+A.4 Unicode
+
+Q.5 When reading data across the network (i.e. from a URL) in Python 3, what method must be used to convert it to the internal format used by strings? 
+A.5 decode( )
+
+Q.6 Which of the following lines will never print out regardless of the value of "x"?
+    if x < 2 :
+      print("Below 2")
+    elif x < 0 :
+      print("Negative")
+    else :
+      print("Something else")
+    
+A.6 Negative
+
+Q.7 Which of the following lines will never print out regardless of the value for x?
+    if x < 2 :
+      print("Below 2")
+    elif x < 20 :
+      print("Below 20")
+    elif x < 10 :
+      print("Below 10")
+    else :
+      print("Something else")
+    
+A.7 Below 10
+
+Q.8 What would the following Python code sequence print out?
+    zap = "hello there bob"
+    print(zap[4])
+
+A.8 o
+
+Q.9 Which of the following lines of Python code contains a syntax error?
+    x = 12
+    if x < 5:
+    print("smaller")
+    else:
+       print("bigger")
+    print("all done")
+
+A.9 3
+
+Q.10 What will the following Python program print out?
+     def fred():
+        print("Zap")
+
+     def jane():
+        print("ABC")
+
+jane()
+fred()
+jane()
+
+A.10 ABC Zap ABC
+
+Q.11 Where in the computer is a variable such as "X" stored?
+     x = 123
+     
+A.11 Main Memory
+
+Q.12 What is the primary use of the Python dictionary?
+A.12 To store key / value pairs
+
+Q.13 What does the following Python code print out?
+     stuff = ['joseph', 'sally', 'walter', 'tim']
+     print(stuff[2])
+     
+A.13 walter
+
+Q.14 What will the following Python program print out? (This is a bit tricky so look carefully).
+     def hello():
+       print("Hello")
+       print("There")
+
+x = 10
+x = x + 1
+
+A.14 Nothing will print
+
+Q.15 What will the following Python program print out?
+      x = -1
+      for value in [3, 41, 12, 9, 74, 15] :
+        if value > x :
+          x = value
+      print(x)
+      
+A.15 74
+
+Q.16 What will the following Python program print out?
+     total = 0
+     for abc in range(5):
+        total = total + abc
+     print(total)
+     
+A.16 10
+
+Q.17 The following Python code causes a traceback:
+     a = "123"
+     b = 456
+     c = a + b
+     print(c)
+     Which line fails with a traceback?
+     
+A.17 3
+
+Q.18 In the following example, an error occurs in "line3" that normally causes a traceback if it were not in a try/except.
+     line1
+     try:
+        line2
+        line3
+        line4
+    except:
+        line5
+line6
+
+What is the sequence of lines executed in this program?
+
+A.18 line1, line2, line3, line5, line6
+
+Q.19 What would the following Python code print out?
+     abc = "With three words"
+     stuff = abc.split()
+     print(stuff)
+     
+A.19 ['With', 'three' ,'words']
+
+Q.20 What would the following Python code print out?
+     abc = "With three words"
+     stuff = abc.split()
+     print(len(stuff))
+
+A.20 3
+
+Q.21 Which of the following is not a good synonym for "class" in Python?
+A.21 direction
+
+Q.22 What is "self" typically used in a Python method within a class?
+A.22 To refer to the instance in which the method is being called
+
+Q.23 How is a Python socket different than a Python file handle?
+A.23 You can read and write using the same socket
+
+Q.24 In the following XML, what is "type"?
+     <person>
+        <name>Chuck</name>
+        <phone type="intl">
+        +1 734 303 4456
+        </phone>
+        <email hide="yes" />
+    </person>
+    
+A.24 An attribute
+
+Q.25 Which programming language serves as the basis for the JSON syntax?
+A.25 JavaScript
